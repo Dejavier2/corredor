@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>C O R R E D O R</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='script.js'></script>
+</head>
+
+<body>
+
+    <div id="humero_der">
+        <div id="antebrazo_der">
+            <div id="mano_der"></div>
+        </div>
+    </div>
+
+    <div id="humero_izq">
+        <div id="antebrazo_izq">
+            <div id="mano_izq"></div>
+        </div>
+    </div>
+
+    <div id="muslo_der">
+        <div id="tibia_der">
+            <div id="pie_der"></div>
+        </div>
+    </div>
+
+    <div id="muslo_izq">
+        <div id="tibia_izq">
+            <div id="pie_izq"></div>
+        </div>
+    </div>
+
+
+    <button type="button" id="Play" onclick="corredor()"> Play </button>
+    <button type="button" id="Pause" onclick="pause()"> Pause </button>
+    <button type="button" id="dance" onclick="dance()"> Dance </button>
+    <button type="button" id="reset" onclick="reset()"> Reset </button>
+
+    <div id="Velocidad">
+        <br>
+        <label id="label_Max_Min">Mas / Menos ( Velocidad )</label>
+        <input type="range" value="1" id="Max_Min" max="2" min="0" step="0.1" onchange="DisplayChange()">
+    </div>
+
+    <div id="Displaydance">
+        <br>
+        <label id="label_HD">Humero Der</label>
+        <input type="range" value="1" id="HD" max="2" min="0" step="0.1" onchange="corredor()">
+
+        <label id="label_AD">Antebrazo Der</label>
+        <input type="range" value="1" id="AD" max="2" min="0" step="0.1" onchange="corredor()">
+
+        <label id="label_HI">Humero Izq</label>
+        <input type="range" value="1" id="HI" max="2" min="0" step="0.1" onchange="corredor()">
+
+        <label id="label_AI">Antebrazo Izq</label>
+        <input type="range" value="1" id="AI" max="2" min="0" step="0.1" onchange="corredor()">
+
+        <label id="label_MD">Muslo Der</label>
+        <input type="range" value="1" id="MD" max="2" min="0" step="0.1" onchange="corredor()">
+
+        <label id="label_TD">Tibia Der</label>
+        <input type="range" value="1" id="TD" max="2" min="0" step="0.1" onchange="corredor()">
+
+        <label id="label_MI">Muslo Izq</label>
+        <input type="range" value="1" id="MI" max="2" min="0" step="0.1" onchange="corredor()">
+
+        <label id="label_TI">Tibia Izq</label>
+        <input type="range" value="1" id="TI" max="2" min="0" step="0.1" onchange="corredor()">
+    </div>
+</body>
+
+</html>

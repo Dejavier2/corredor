@@ -1,0 +1,243 @@
+body {
+    background-color: black;
+}
+
+#Pause {
+    position: fixed;
+    margin-left: 125px;
+    margin-top: 10px;
+    width: 90px;
+    height: 35px;
+    background-color: black;
+    color: antiquewhite; 
+    border: 1px solid #ddd;
+}
+
+#Play {
+    position: fixed;
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 90px;
+    height: 35px;
+    background-color: black;
+    color: antiquewhite; 
+    border: 1px solid #ddd;
+}
+
+#dance {
+    position: fixed;
+    margin-left: 15px;
+    margin-top: 60px;
+    width: 90px;
+    height: 35px;
+    background-color: black;
+    color: antiquewhite; 
+    border: 1px solid #ddd;
+}
+
+#reset {
+    position: fixed;
+    margin-left: 15px;
+    margin-top: 60px;
+    width: 90px;
+    height: 35px;
+    background-color: black;
+    color: antiquewhite; 
+    border: 1px solid #ddd;
+    visibility: hidden;
+    display: none;
+}
+
+#Velocidad {
+    text-align: center;
+    background-color: black;
+    position: fixed;
+    margin-top: 8px;
+    margin-left: 235px;
+    width: 180px;
+    height: 70px;
+    border: 1px solid #ddd;
+}
+
+#label_Max_Min, #label_HD, #label_AD, #label_HI, #label_AI, #label_MD, #label_TD, #label_MI, #label_TI {
+    font-size: 14px;
+    color: chartreuse;
+}
+
+#Max_Min ,#HD, #AD, #HI, #AI, #MD, #TD, #MI, #TI {
+    margin:calc(5%);     
+}
+
+#Displaydance {
+    text-align: center;
+    background-color: transparent;
+    position: fixed;
+    margin-top: 90px;
+    margin-left: 235px;
+    width: 180px;
+    height: 440px;
+    border: 1px solid #ddd;
+    visibility: hidden;
+    display: none;
+}
+
+#humero_der {
+    background-color: blue;
+    width: 22px;
+    height: 90px;
+    border-radius: 20px;
+    border: 5px solid red;
+    position: fixed;
+    margin-top: 180px;
+    margin-left: 200px; 
+    transform-origin: 50% 0%; /*transform-origin: 50% 20%; CENTRADO*/         
+    transform: rotate(0deg);
+    z-index: -1;
+}
+
+#antebrazo_der {
+    background-color: blue;
+    width: 22px;
+    height: 60px;
+    border-radius: 20px;
+    border: 5px solid red;
+    position: relative;
+    margin-top: 77px;
+    margin-left: 0px; 
+    transform-origin: 50% 0%;         
+    transform: rotate(0deg);
+    z-index: -1;
+}
+
+#humero_izq {
+    background-color: chartreuse;
+    width: 22px;
+    height: 90px;
+    border-radius: 20px;
+    border: 5px solid red;
+    position: fixed;
+    margin-top: 180px;
+    margin-left: 200px; 
+    transform-origin: 50% 0%; /*transform-origin: 50% 20%; CENTRADO*/         
+    transform: rotate(0deg);
+}
+
+#antebrazo_izq {
+    background-color: chartreuse;
+    width: 22px;
+    height: 60px;
+    border-radius: 20px;
+    border: 5px solid red;
+    position: fixed;
+    margin-top: 77px;
+    margin-left: 0px; 
+    transform-origin: 50% 0%;          
+    transform: rotate(0deg);
+    z-index: 1;
+}
+
+#muslo_der {
+    background-color: blue;
+    width: 30px;
+    height: 110px;
+    border-radius: 20px;
+    border: 5px solid red;
+    position: fixed;
+    margin-top: 300px;
+    margin-left: 200px; 
+    transform-origin: 50% 5%; /*transform-origin: 50% 20%; CENTRADO*/         
+    transform: rotate(0deg);
+    z-index: -1;
+}
+
+#muslo_izq {
+    background-color: chartreuse;
+    width: 30px;
+    height: 110px;
+    border-radius: 20px;
+    border: 5px solid red;
+    position: fixed;
+    margin-top: 300px;
+    margin-left: 200px; 
+    transform-origin: 50% 5%; /*transform-origin: 50% 20%; CENTRADO*/         
+    transform: rotate(0deg);
+    z-index: -1;
+}
+
+#tibia_der {
+    background-color: blue;
+    width: 25px;
+    height: 110px;
+    border-radius: 20px;
+    border: 5px solid red;
+    position: relative;
+    margin-top: 100px;
+    margin-left: -6px;
+    transform-origin: 50% 0%; /*transform-origin: 50% 20%; CENTRADO*/          
+    transform: rotate(0deg);
+}
+
+#tibia_izq {
+    background-color: chartreuse;
+    width: 25px;
+    height: 110px;
+    border-radius: 20px;
+    border: 5px solid red;
+    position: relative;
+    margin-top: 100px;
+    margin-left: -6px;
+    transform-origin: 50% 0%;          
+    transform: rotate(0deg);
+}
+
+#pie_der {
+    background-color: blue;
+    width: 20px;
+    height: 65px;
+    border-radius: 15px;
+    border: 5px solid red;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 16px; 
+    transform-origin: 50% 0%;          
+    transform: rotate(90deg);
+}
+
+#pie_izq {
+    background-color: chartreuse;
+    width: 20px;
+    height: 65px;
+    border-radius: 15px;
+    border: 5px solid red;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 16px; 
+    transform-origin: 50% 0%;          
+    transform: rotate(90deg);
+}
+
+#mano_der {
+    background-color: blue;
+    width: 20px;
+    height: 35px;
+    border-radius: 15px;
+    border: 5px solid red;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 5px; 
+    transform-origin: 50% 0%;          
+    transform: rotate(30deg);
+}
+
+#mano_izq {
+    background-color: chartreuse;
+    width: 20px;
+    height: 35px;
+    border-radius: 15px;
+    border: 5px solid red;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 5px; 
+    transform-origin: 50% 0%;          
+    transform: rotate(30deg);           
+}
